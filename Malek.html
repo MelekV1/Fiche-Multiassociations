@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Fiche Multiassociations</title>
+  </head>
+  <body>
+    <div class="Main-reservation" style="text-align: center ; border:1px solid black">
+      <h1>Piquenique Multiassociations</h1>
+      <img src="img/repas.jpg"/>
+      <div class="subscription" >
+        <form method="post" action="" style="text-align:left ;padding-left: 30%;">
+            <h1>Inscriptions</h1>
+            <label for="Prenom">Prenom : </label>
+            <input type="text" name="pseudo" id="pseudo" required/>
+            <br></br>
+            <label for="password">Mot de passe : </label>
+            <input type="password" name="password" id="password" required/>
+            <br></br>
+            <label for="Association">Association : </label>
+            <select id="Association" required>
+              <option value="AssociationX">AssociationX</option>
+              <option value="Farm House">Farm House</option>
+              <option value="Plan B">Plan B</option>
+              <option value="Papa John's">Papa John's</option>
+              <option value="Coin vert">Coin vert</option>
+            </select>
+            <br></br>
+            <label for="Disponibilité">Disponibilite pour la semaine du : </label>
+            <input type="date" id="date" name="dispo-date" placeholder="jj/mm/aaaa" required>
+            </br>
+            <input type="checkbox" name="dispo" value="Lundi">
+            <label for="Lundi">Lundi</label>
+            <input type="checkbox" name="dispo" value="Mardi">
+            <label for="Mardi">Mardi</label>
+            <input type="checkbox" name="dispo" value="Mercredi">
+            <label for="Mercredi">Mercredi</label>
+            <input type="checkbox" name="dispo" value="Jeudi">
+            <label for="Jeudi">Jeudi</label>
+            <input type="checkbox" name="dispo" value="Vendredi">
+            <label for="Vendredi">Vendredi</label>
+
+            <br></br>
+            <label for="Contribution">Contribution : </label>
+            <input type="radio" name="Contribution" value="Entree">
+            <label for="Entree">Entree</label>
+
+            <input type="radio" name="Contribution" value="Plat">
+            <label for="Plat">Plat</label>
+
+            <input type="radio" name="Contribution" value="Desert">
+            <label for="Desert">Desert</label>
+            <br></br>
+            <input TYPE="SUBMIT" NAME= ".." VALUE="Soummettre">
+            <!--<button>Soummettre</button>-->
+        </form>
+      </div>
+  </div>
+  </body>
+</html>
